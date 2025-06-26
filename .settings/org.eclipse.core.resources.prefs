@@ -1,8 +1,5 @@
 eclipse.preferences.version=1
-encoding//resources/translation.txt=UTF-8
-encoding//src/org/insightech/er/editor/controller/command/common/PasteCommand.java=UTF-8
-encoding//src/org/insightech/er/editor/controller/editpart/element/node/ERTableEditPart.java=UTF-8
-encoding//src/org/insightech/er/editor/model/dbimport/ImportFromDBManagerBase.java=UTF-8
-encoding//src/org/insightech/er/editor/view/dialog/common/ERTableComposite.java=UTF-8
-encoding/README.ja=UTF-8
-encoding/README.md=UTF-8
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8
