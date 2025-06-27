@@ -1,0 +1,7 @@
+ermaster-c_plugin/bin
+ermaster-c_plugin/target
+.settings
+
+!features/*.jar
+!plugins/*.jar
+

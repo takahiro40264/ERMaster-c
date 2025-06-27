@@ -3,7 +3,7 @@
    <description name="ERMaster-c">
       ERMasterの2025年最新版
    </description>
-   <feature url="features/ermaster_c_feature_1.0.0.202506271808.jar" id="ermaster_c_feature" version="1.0.0.202506271808" os="linux,macosx,win32" nl="ja_JP_JP_#u-ca-japanese">
+   <feature url="features/ermaster_c_feature_0.0.1.202506271847.jar" id="ermaster_c_feature" version="0.0.1.202506271847" os="linux,macosx,win32" nl="ja_JP_JP_#u-ca-japanese">
       <category name="ERMaster-c-category"/>
    </feature>
    <category-def name="ERMaster-c-category" label="ERMaster-c">

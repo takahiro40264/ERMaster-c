@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: org.insightech.er
-Bundle-SymbolicName: org.insightech.er;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Name: ermaster-c_plugin
+Bundle-SymbolicName: ermaster-c_plugin;singleton:=true
+Bundle-Version: 0.0.1
 Bundle-Activator: org.insightech.er.Activator
 Bundle-Localization: plugin
 Require-Bundle: org.eclipse.ui,
