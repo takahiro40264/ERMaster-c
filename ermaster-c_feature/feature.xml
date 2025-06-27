@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ermaster_c_feature"
+      label="Ermaster-c"
+      version="1.0.0.qualifier"
+      provider-name="HighWideSystem"
+      plugin="org.insightech.er"
+      os="linux,macosx,win32"
+      nl="ja_JP_JP_#u-ca-japanese">
+
+   <description url="http://www.example.com/description">
+      ERMaster-cです。
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [ここに Copyright の説明を入力してください。]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [ここにライセンスの説明を入力してください。]
+   </license>
+
+   <url>
+      <discovery label="新規ディスカバリー・サイト" url="http://newsite"/>
+   </url>
+
+   <plugin
+         id="org.insightech.er"
+         nl="ja"
+         version="0.0.0"/>
+
+</feature>

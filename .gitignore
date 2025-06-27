@@ -1,6 +1,4 @@
-*.class
-
-# Package Files #
-*.war
-*.ear
-/bin
+ermaster-c_plugin/bin
+ermaster-c_plugin/target
+.settings
+*.jar

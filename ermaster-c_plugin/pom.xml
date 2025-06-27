@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.insightech.er.ermaster-c</groupId>
+	<artifactId>ERMaster-c-plugin</artifactId>
+	<version>1.0.0</version>
+
+	<properties>
+
+		<tycho-version>4.0.5</tycho-version>
+		<eclipse-gef-version>3.18.0</eclipse-gef-version>
+		<eclipse-platform-version>2021-12</eclipse-platform-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
+
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.platform</groupId>-->
+<!--			<artifactId>org.eclipse.core.runtime</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.draw2d</groupId>-->
+<!--			<artifactId>org.eclipse.draw2d</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.gef</groupId>-->
+<!--			<artifactId>org.eclipse.gef</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.platform</groupId>-->
+<!--			<artifactId>org.eclipse.jface</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.platform</groupId>-->
+<!--			<artifactId>org.eclipse.swt</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.platform</groupId>-->
+<!--			<artifactId>org.eclipse.ui</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.platform</groupId>-->
+<!--			<artifactId>org.eclipse.ui.ide</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.osgi</groupId>-->
+<!--			<artifactId>org.osgi.core</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.eclipse.platform</groupId>-->
+<!--			<artifactId>org.eclipse.core.resources</artifactId>-->
+<!--			<version>0.0.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+
+
+	</dependencies>
+
+
+<!--	<repositories>-->
+<!--		<repository>-->
+<!--			<id>neon</id>-->
+<!--			<layout>p2</layout>-->
+<!--			<url>-->
+<!--				https://download.eclipse.org/releases/${eclipse-platform-version}/</url>-->
+<!--		</repository>-->
+<!--		<repository>-->
+<!--			<id>eclipse-gef-classic-3.18</id>-->
+<!--			<layout>p2</layout>-->
+<!--			<url>https://download.eclipse.org/tools/gef/updates/releases/</url>-->
+<!--		</repository>-->
+<!--	</repositories>-->
+
+
+<!--	<build>-->
+<!--		<plugins>-->
+<!--			<plugin>-->
+<!--				<groupId>org.eclipse.tycho</groupId>-->
+<!--				<artifactId>target-platform-configuration</artifactId>-->
+<!--				<version>${tycho-version}</version>-->
+<!--				<configuration>-->
+<!--					<resolver>p2</resolver>-->
+<!--					<environments>-->
+<!--						<environment>-->
+<!--							<os>win32</os>-->
+<!--							<ws>win32</ws>-->
+<!--							<arch>x86_64</arch>-->
+<!--						</environment>-->
+<!--					</environments>-->
+<!--					<updateSite>-->
+<!--						<url>-->
+<!--							https://download.eclipse.org/releases/${eclipse-platform-version}/</url>-->
+<!--						<layout>p2</layout>-->
+<!--					</updateSite>-->
+
+<!--					<updateSite>-->
+<!--						<url>-->
+<!--							https://download.eclipse.org/tools/gef/updates/releases/</url>-->
+<!--						<layout>p2</layout>-->
+<!--					</updateSite>-->
+
+<!--				</configuration>-->
+<!--			</plugin>-->
+<!--		</plugins>-->
+<!--	</build>-->
+	<repositories>
+		<repository>
+			<id>neon</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/2024-06</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>
