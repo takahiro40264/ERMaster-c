@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <description name="ERMaster-c">
-      ERMasterの2025年最新版
+      ERMaster-cの2025年最新版
    </description>
    <feature url="features/ermaster_c_feature_0.0.1.202506271847.jar" id="ermaster_c_feature" version="0.0.1" os="" nl="">
-      <category name="ERMaster-c-category"/>
-   </feature>
-   <category-def name="ERMaster-c-category" label="ERMaster-c">
-      <description>
-         ERMaster-c
-      </description>
+      <category name="ermaster-c-category"/> </feature>
+   <category-def name="ermaster-c-category" label="ERMaster-c">
+      <description>ERMaster-c</description>
    </category-def>
 </site>
