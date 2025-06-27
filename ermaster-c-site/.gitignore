@@ -4,4 +4,5 @@ ermaster-c_plugin/target
 
 !features/*.jar
 !plugins/*.jar
-
+!artifacts.jar
+!content.jar
